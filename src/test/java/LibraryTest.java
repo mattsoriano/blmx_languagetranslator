@@ -10,6 +10,7 @@ import org.junit.Test;
  * @author 135480, @date 2/7/17 3:02 PM
  */
 public class LibraryTest {  
+    @Test(timeout=3000)
     public void byeShouldReturnAurevoir() {
         TranslatorService lt = new TranslatorService();
         assertEquals("bye should be Au revoir", "Au revoir", lt.getTranslation("bye", "en-fr"));
