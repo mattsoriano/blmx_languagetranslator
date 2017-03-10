@@ -17,7 +17,6 @@ public class LibraryTest {
         t = new TranslatorService();
     }
     
-    @Test(timeout=1000)
     public void byeShouldReturnAurevoir() {
     assertEquals("bye should be Au revoir", "Au revoir", t.getTranslation("bye", "en-fr"));
     }
