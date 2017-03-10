@@ -6,7 +6,7 @@ import org.junit.runner.notification.Failure;
 
 public class TestRunner{
   public static void main(String args[]){
-    Result result = JUnitCore.runClasses(MyTest.class);
+    Result result = JUnitCore.runClasses(LibraryTest.class);
 	int errorCtr = 0;
     for (Failure failure : result.getFailures()) {
 	  errorCtr++;
