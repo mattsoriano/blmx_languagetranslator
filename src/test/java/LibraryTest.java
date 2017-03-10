@@ -9,15 +9,9 @@ import org.junit.Test;
  *
  * @author 135480, @date 2/7/17 3:02 PM
  */
-public class LibraryTest {
-    private TranslatorService t;
-    
-    @Before
-    public void initializeTranslatorService(){
-        t = new TranslatorService();
-    }
-    
+public class LibraryTest {  
     public void byeShouldReturnAurevoir() {
-    assertEquals("bye should be Au revoir", "Au revoir", t.getTranslation("bye", "en-fr"));
+        TranslatorService lt = new TranslatorService();
+        assertEquals("bye should be Au revoir", "Au revoir", lt.getTranslation("bye", "en-fr"));
     }
 }
