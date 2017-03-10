@@ -14,6 +14,6 @@ public class LibraryTest {
     @Test
     public void helloShouldReturnBonjour() {
         TranslatorService lt = new TranslatorService();
-        assertEquals("hello should be Bonjour", "Bonjour", "Bonjour");
+        assertEquals("hello should be Bonjour", "Bonjour", lt.getTranslation("hello","en-fr"));
     }
 }
