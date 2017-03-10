@@ -12,8 +12,8 @@ import net.tutorial.utilities.TranslatorService;
  */
 public class LibraryTest {  
     @Test
-    public void byeShouldReturnAurevoir() {
+    public void helloShouldReturnBonjour() {
         TranslatorService lt = new TranslatorService();
-        assertEquals("bye should be Au revoir", "Au revoir", lt.getTranslation("bye", "en-fr"));
+        assertEquals("hello should be Bonjour", "Bonjour", lt.getTranslation("hello", "en-fr"));
     }
 }
