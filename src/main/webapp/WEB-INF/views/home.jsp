@@ -5,7 +5,7 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<title>Watson - Language Translation</title>
+<title>Watson - Language Translation (Complete Bonus Points!)</title>
 <link href="css/styles.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
